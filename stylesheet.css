@@ -1,0 +1,29 @@
+header{ 
+text-align: center;  
+ float:left; 
+} 
+img{ 
+ width:500px; 
+} 
+h1{ 
+ font-weight:bold; 
+ font-size:xx-large; 
+ margin-right:-90px; 
+ } 
+li{ 
+   font-size:large; 
+ font-style:italic; 
+} 
+header, div{ 
+ display:inline-block; 
+ margin-left:90px; 
+} 
+body{ 
+ background-color:blue; 
+} 
+ 
+
+
+ 
+   
+
