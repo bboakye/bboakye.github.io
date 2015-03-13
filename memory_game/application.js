@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  var card_array = ["fish", "fish", "turtle", "turtle", "pig", "pig", "dog", "dog", "cat", "cat", "snake", "snake", "bird", "bird", "goat", "goat", "hamster", "hamster", "dragon", "dragon"];
+  var card_array = ["cow", "cow", "monkey", "monkey", "pig", "pig", "dog", "dog", "cat", "cat", "snake", "snake", "bird", "bird", "goat", "goat", "chicken", "chicken", "lizard", "lizard"];
 function shuffle(array) {
     var counter = array.length, temp, index;
 
@@ -27,6 +27,7 @@ function shuffle(array) {
     var click_1= 'nothing';
     var click_2= 'nothing';
   $(".card").click (function() {
+    if
      $(this).find('p').css("opacity",1);
       click_1 = $(this).find('p').text();
   });  
