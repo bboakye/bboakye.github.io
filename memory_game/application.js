@@ -27,13 +27,19 @@ function shuffle(array) {
     var click_1= 'nothing';
     var click_2= 'nothing';
   $(".card").click (function() {
-    if
+    if(click_count== 0){
      $(this).find('p').css("opacity",1);
       click_1 = $(this).find('p').text();
+      click_count=1;
+    }
+    else{
+      $(this).find('p').css("opacity",1);
+      click_2 = $(this).find('p').text();
+      click_count=0;
+      if(click_1 != click_2){
+      
+        
+      }
+    }
   });  
-  if(click_1 != click_2){
-    //find('p'),css("opacity", 1) Remove Class
-    
-  };
-  
 });
