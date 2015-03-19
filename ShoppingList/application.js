@@ -1,8 +1,4 @@
-h1 {
-  text-align: center;
-}
-p{
-  text-align:center;
-  opacity:0;
-  width:50px;
-  }
+$(document).ready(function(){
+
+  
+})
