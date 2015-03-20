@@ -3,7 +3,7 @@ $('button').on('click',function()
 {
   var item=$('#placeholder').val();
   console.log("updated" + item);
-  $("#my_shopinglist").append("<li>" + item + "</li>")
+  $("#my_shoppinglist").append("<li>" + item + "</li>")
 })
   
 })
