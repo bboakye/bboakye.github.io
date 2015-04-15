@@ -9,20 +9,17 @@ $(document).ready(function(){
     
     //and compare this guess to the random number that the computer picked
     //if the user guessed the correct number...
-    if (number === guess)
-    {
+    if (number === guess){
       alert('YOU GOT IT')
-      }
-      else if (number< guess)
-        {
-        alert('GUESS LOWER')
-      }
-       else
-       {
-         alert('GUESS HIGHER BITCH')
-       }
-       ));
-       ));
+    }
+    else if (number< guess){
+      alert('GUESS LOWER')
+    }
+    else{
+      alert('GUESS HIGHER')
+    }
+  });
+});
     
       //what happens if the guess is correct?
       
@@ -33,6 +30,3 @@ $(document).ready(function(){
     //otherwise, the user guessed too low...
     
       //update the 'feedback' paragraph to tell them to guess higher
-    
-  });
-});
